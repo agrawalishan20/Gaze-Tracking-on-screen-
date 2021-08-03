@@ -47,6 +47,6 @@ for i in [100, 1600]:
     for j in [200, 800]:
         print(i,j)
         pyautogui.moveTo(i, j)
-        getEye(cap, times = 100, coords=(i,j), counterStart=0, folder = "eyes3")
+        getEye(cap, times = 100, coords=(i,j), counterStart=0, folder = "eyes_test")
 cap.release()
 cv2.destroyAllWindows()
