@@ -8,7 +8,7 @@ Aim of the project is to track gaze using webcam and to analyze the data.
 
 # Requirements 
 1. Requires all the necessary imports mentioned in the code. (dlib, copy, cv2, pyautogui, etc.) 
-2. Uses shape_predictor_68_face_landmarks for features recognition.
+2. Uses shape_predictor_68_face_landmarks for features recognition --> https://github.com/tzutalin/dlib-android/blob/master/data/shape_predictor_68_face_landmarks.dat
 3. **CUDA 11.1** enabled GPU is required with **cuDNN**
 4. Use this link to get latest torch, torchvision & torchaudio for CUDA --> https://pytorch.org/
 
