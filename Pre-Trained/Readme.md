@@ -1,1 +1,1 @@
-Here are some pre-trained models with the respective training and testing data. I recorded my data in Pre-Trained model 2 through a **nose-cam**. People mostly use webcam so the Pre-trained model 1 might be a choice but not really reliable. 
+Here are some pre-trained models with the respective training. I recorded my data in Pre-Trained model 2 through a **nose-cam** and models on Pre-Trained 1 are from **webcam**. People mostly use webcam so the Pre-trained model 1 might be a choice but not really reliable because it has to be according to the user.
