@@ -40,13 +40,19 @@ def getEye(cap, times = 1, coords = (0,0), counterStart = 0, folder = "eyes1"):
 
 
 
-cap = cv2.VideoCapture(0)
-#for i in [100, 1600]:
- #   for j in [200, 800]:
-for i in [20, 480, 1200, 1900]:
-   for j in [10, 270, 650, 1000]:
-        print(i,j)
-        pyautogui.moveTo(i, j)
-        getEye(cap, times = 100, coords=(i,j), counterStart=0, folder = "eyes_train")
-cap.release()
-cv2.destroyAllWindows()
+
+
+def loop(cap):
+    # for i in [100, 1600]:
+    #   for j in [200, 800]:
+    for i in [20, 480, 1200, 1900]:
+       for j in [10, 270, 650, 1000]:
+            print(i,j)
+            pyautogui.moveTo(i, j)
+            getEye(cap, times = 100, coords=(i,j), counterStart=0, folder = "eyes_train")
+
+def start():
+    cap = cv2.VideoCapture(0)
+    loop(cap)
+    cap.release()
+    cv2.destroyAllWindows()
