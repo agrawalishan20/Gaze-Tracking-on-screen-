@@ -180,7 +180,9 @@ def trainModel():
     plt.plot(trainscores)
     plt.show()
 
-#for i in range(6): (For continuously training different models. 6 different models are saved and you can get whichever is the best.
-trainModel()
+def train():
+    #for i in range(6): (For continuously training different models. 6 different models are saved and you can get whichever is the best.
+    trainModel()
+
 
 
