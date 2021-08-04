@@ -140,9 +140,3 @@ def eyetrack(xshift = 30, yshift=150, frameShrink = 0.15):
 
 
 
-
-
-tup = eyetrack()
-print(tup[0])
-plt.scatter(tup[0], tup[1])
-plt.show()
